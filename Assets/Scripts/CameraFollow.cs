@@ -9,11 +9,6 @@ public class CameraFollow : MonoBehaviour
 
     [SerializeField]
     private Vector3 offset = Vector3.one;
-    // Start is called before the first frame update
-    void Start()
-    {
-        
-    }
 
     // LateUpdate is called once per frame after Update
     void LateUpdate()

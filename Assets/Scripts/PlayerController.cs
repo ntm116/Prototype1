@@ -16,14 +16,8 @@ public class PlayerController : MonoBehaviour
     [SerializeField]
     private float verticalInput;
 
-    // Start is called before the first frame update
-    void Start()
-    {
-        
-    }
-
     // Update is called once per frame
-    void Update()
+    void FixedUpdate()
     {
         // Get player input
         horizontalInput = Input.GetAxis("Horizontal");
